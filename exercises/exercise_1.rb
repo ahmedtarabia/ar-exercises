@@ -9,4 +9,4 @@ store2 = Store.create(name: 'Richmond', annual_revenue: 1_260_000, mens_apparel:
 
 store3 = Store.create(name: 'Gastown', annual_revenue: 190_000, mens_apparel: true, womens_apparel: false)
 
-puts Store.count
+puts 'Number of stores is ', Store.count
